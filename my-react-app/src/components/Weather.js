@@ -17,7 +17,7 @@ class Weather extends Component {
     }
 
     fetchData() {
-        fetch("http://api.openweathermap.org/data/2.5/weather?q=Halifax,ca&units=metric&APPID=d6c235e33f018b83b11f9af5335e3e63")
+        fetch("http://api.openweathermap.org/data/2.5/weather?q=Halifax,ca&units=metric&APPID=")
             .then(response => {
                 return response.json()
             })
